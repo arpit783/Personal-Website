@@ -1,0 +1,156 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1{
+  margin: 80px auto -55px auto;
+  font-size: 5.625rem;
+  font-family: 'Sacramento', cursive;
+  color: #69bfbf;
+  font-weight: bold;
+}
+
+h2{
+  font-family: 'Merriweather', serif;
+  font-size: 2.5rem;
+  color: #69bfbf;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+h3{
+  font-family: 'Merriweather', serif;
+  color: #69bfbf;
+  font-weight: bold;
+}
+
+p{
+  padding: 20px 0 20px 0;
+}
+
+hr{
+    border-style: dotted none none;
+    text-align: center;
+    width: 5%;
+    border-top: 5px dotted grey;
+    margin-top: 70px;
+}
+
+a{
+  color: #0688fa;
+  text-decoration: none;
+  font-family: 'Merriweather', serif;
+  margin: 10px 20px;
+}
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
+.top-container{
+  background-color: black;
+  height: 620px;
+  padding-top: 100px;
+  margin-bottom: 30px;
+}
+
+.mountain{
+  height: 400px;
+  width: 600px;
+  position: absolute;
+  right: 450px;
+  top: 320px;
+}
+
+.cloud-1{
+  height: 100px;
+  width: 150px;
+  background-color: #000000;
+  position: absolute;
+  top: 250px;
+  left: 400px;
+}
+
+.cloud-2{
+  height: 100px;
+  width: 150px;
+  background-color: #000000;
+  position: absolute;
+  top: 150px;
+  right: 400px;
+}
+
+.profile-picture{
+  border-radius: 100%;
+  height: 200px;
+  width: 200px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 50px auto 150px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.data{
+  margin-right: 30px;
+  height: 250px;
+  width: 250px;
+  float: left;
+}
+
+.web{
+  margin-left: 30px;
+  height: 250px;
+  width: 250px;
+  float: right;
+}
+
+.env{
+  margin-right: 30px;
+  height: 240px;
+  width: 250px;
+  float: left;
+}
+
+.myButton {
+	box-shadow:inset 0 -17px 13px 0 #29bbff;
+	background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+	background-color:#2dabf9;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:20px;
+	font-weight:bold;
+	padding:9px 23px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #263666;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+	background-color:#0688fa;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.bottom-container{
+  background-color: #69bfbf;
+  padding: 20px;
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+.star{
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 50px;
+  left: 450px;
+}
